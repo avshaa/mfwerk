@@ -123,7 +123,8 @@ class Mf_werk_drawing:
 
         ask_for_rebranding = W24AskSheetRebranding(
             #template_url="https://s3.eu-central-1.amazonaws.com/hosting.werk24.io/Manufuture-Template.svg",
-            template_url="https://manufacture-b1.s3.eu-west-3.amazonaws.com/2024/04/18145259/mf-werk-template-1.svg",
+            #template_url="https://manufacture-b1.s3.eu-west-3.amazonaws.com/2024/04/18145259/mf-werk-template-1.svg",
+            template_url="https://manufacture-b1.s3.eu-west-3.amazonaws.com/2024/04/18153609/mf-werk-template-2.svg",
             color_cell_fonts=W24FontMap(
                 font_map={
                     W24Alphabet.LATIN: W24Font(font_family="CourierPrime", font_size=10),
@@ -144,7 +145,7 @@ class Mf_werk_drawing:
                     horizontal_alignment=W24AlignmentHorizontal.LEFT,
                 ),
                 W24SheetRebrandingColorCell(
-                    color=Color((2, 100, 148)),
+                    color=Color((1, 80, 40)),
                     text=designation_title_for_branding,
                     vertical_alignment=W24AlignmentVertical.TOP,
                     horizontal_alignment=W24AlignmentHorizontal.LEFT,
