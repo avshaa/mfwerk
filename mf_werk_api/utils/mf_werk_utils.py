@@ -76,7 +76,7 @@ def recv_title_block(message: W24TechreadMessage):
 
 def recv_rebranded_drawing(message: W24TechreadMessage):
 
-    print(final_file_url)
+    #print(final_file_url)
 
     if message.is_successful:
 
@@ -100,7 +100,7 @@ class Mf_werk_drawing:
 
     def introduce(self):
 
-        print("hello, my name is", self.name, "and my MF id is", self.mf_id, ". My org file url is:", self.org_file_url)
+        #print("hello, my name is", self.name, "and my MF id is", self.mf_id, ". My org file url is:", self.org_file_url)
 
     def get_drawing_data(self):
 
@@ -122,7 +122,8 @@ class Mf_werk_drawing:
         #print(material_title_for_branding)
 
         ask_for_rebranding = W24AskSheetRebranding(
-            template_url="https://s3.eu-central-1.amazonaws.com/hosting.werk24.io/Manufuture-Template.svg",
+            #template_url="https://s3.eu-central-1.amazonaws.com/hosting.werk24.io/Manufuture-Template.svg",
+            template_url="https://manufacture-b1.s3.eu-west-3.amazonaws.com/2024/04/18145259/mf-werk-template-1.svg",
             color_cell_fonts=W24FontMap(
                 font_map={
                     W24Alphabet.LATIN: W24Font(font_family="CourierPrime", font_size=10),
