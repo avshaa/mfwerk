@@ -100,7 +100,7 @@ class Mf_werk_drawing:
 
     def introduce(self):
 
-        #print("hello, my name is", self.name, "and my MF id is", self.mf_id, ". My org file url is:", self.org_file_url)
+        print("hello, my name is", self.name, "and my MF id is", self.mf_id, ". My org file url is:", self.org_file_url)
 
     def get_drawing_data(self):
 
